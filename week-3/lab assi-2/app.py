@@ -126,7 +126,7 @@ def generate_error_html(error_message):
     """
     
     with open('output.html', 'w') as f:
-        f.write(html_content)
+        f.write(html_cbontent)
 
 def main():
     if len(sys.argv) != 3:
