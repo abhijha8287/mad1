@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinja</title>
+</head>
+<body>
+    <h1>welcome {{name}} in jinja tutorial. </h1>
+
+    <h2>Your favorite fruits are </h2>
+    <ul>
+        {% for fruit in fruits %}
+            <li>{{fruit}} </li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% if name =="Abhishk" %}
+            <li>Hello from the if loop</li>
+        {% else %}
+            <li>Mai else block se bol rha hu</li>
+        {% endif %}
+    </ul>
+</body>
+</html>
